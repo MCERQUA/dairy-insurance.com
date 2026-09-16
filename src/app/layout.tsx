@@ -35,14 +35,14 @@ export const metadata: Metadata = {
     siteName: SITE.name,
     title: `${SITE.name} | Contractors Choice Agency`,
     description:
-      "Specialized insurance for dairy farms — livestock mortality, milking parlor & barn property, equipment breakdown with milk spoilage, product liability, manure-runoff pollution, workers' comp, and commercial auto. Licensed all 50 states. 15-min quotes.",
-    images: [{ url: "/images/og-image.jpg", width: 1200, height: 630, alt: `${SITE.name} — dairy farm coverage` }],
+      "Specialized insurance for dairies that milk cows — livestock mortality, milking parlor & barn property, equipment breakdown with milk spoilage, product liability, manure-runoff pollution, workers' comp, and commercial auto. Licensed all 50 states. 15-min quotes.",
+    images: [{ url: "/images/og-image.jpg", width: 1200, height: 630, alt: `${SITE.name} — coverage for working dairies` }],
   },
   twitter: {
     card: "summary_large_image",
     title: `${SITE.name} | Contractors Choice Agency`,
     description:
-      "Specialized insurance for dairy farms. Livestock mortality, parlor & barn property, equipment breakdown & milk spoilage, product liability, pollution, workers' comp, and auto. 15-minute quotes.",
+      "Specialized insurance for dairies that milk cows. Livestock mortality, parlor & barn property, equipment breakdown & milk spoilage, product liability, pollution, workers' comp, and auto. 15-minute quotes.",
     images: ["/images/og-image.jpg"],
   },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
@@ -73,10 +73,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     areaServed: { "@type": "Country", name: "United States" },
     serviceType: [
       "Dairy Cattle & Livestock Mortality Insurance",
-      "Farm Property & Buildings Insurance for Dairies",
+      "Dairy Property & Buildings Insurance",
       "Equipment Breakdown & Milk Spoilage Insurance",
       "Dairy Product Liability Insurance",
-      "General Liability Insurance for Dairy Farms",
+      "General Liability Insurance for Working Dairies",
       "Workers' Compensation for Dairy Crews",
       "Commercial Auto & Trucking for Milk Tankers",
       "Pollution & Environmental Liability for Dairies",

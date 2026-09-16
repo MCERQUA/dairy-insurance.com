@@ -1,14 +1,14 @@
 // Centralized site data — used across nav, footer, schema, CTAs
-// Dairy Insurance — dairy farm & dairy operations coverage
+// Dairy Insurance — coverage for operating dairies that milk cows
 
 export const SITE = {
   name: "Dairy Insurance",
   legalName: "Dairy Insurance (by Contractors Choice Agency)",
   domain: "dairy-insurance.com",
   url: "https://dairy-insurance.com",
-  tagline: "Insurance for Dairy Farms & Dairy Operations",
+  tagline: "Insurance for Working Dairies That Milk Cows",
   description:
-    "Specialized commercial insurance for dairy farms and dairy operations — dairy cattle & livestock mortality, milking parlors and barns, bulk-tank and chiller equipment breakdown with milk spoilage, dairy product liability, manure and runoff pollution, workers' comp, commercial auto for milk tankers, and crop/feed. Licensed all 50 states.",
+    "Specialized commercial insurance for operating dairies that milk cows — dairy cattle & livestock mortality, milking parlors and barns, bulk-tank and chiller equipment breakdown with milk spoilage, dairy product liability, manure and runoff pollution, workers' comp, commercial auto for milk tankers, and crop/feed. Licensed all 50 states.",
   phone: "844-967-5247",
   phoneAlt: "855-336-7189",
   phoneHref: "tel:+18449675247",
@@ -32,20 +32,20 @@ export const SITE = {
 // Niche nouns used in headings, metadata, and component copy
 export const BRAND = {
   brandShort: "Dairy",
-  brandSub: "Farm Insurance",
-  nicheShort: "dairy farm",
-  nicheShortCap: "Dairy Farm",
-  nichePlural: "dairy farms",
-  nichePluralCap: "Dairy Farms",
+  brandSub: "Insurance",
+  nicheShort: "dairy",
+  nicheShortCap: "Dairy",
+  nichePlural: "working dairies",
+  nichePluralCap: "Working Dairies",
   operator: "dairy operation",
   operatorCap: "Dairy Operation",
-  industry: "dairy farming",
-  industryCap: "Dairy Farming",
+  industry: "milk production",
+  industryCap: "Milk Production",
   audience: "dairy producers",
   audienceCap: "Dairy Producers",
-  ownerTitle: "dairy farmer",
-  regionPill: "Wisconsin · California · National",
-  serviceSuffix: "Dairy Farms",
+  ownerTitle: "dairy producer",
+  regionPill: "For dairies that milk cows · Wisconsin · California · National",
+  serviceSuffix: "Working Dairies",
 } as const;
 
 export const NAV_LINKS = [
@@ -69,7 +69,7 @@ export const SERVICES = [
   },
   {
     slug: "farm-property",
-    title: "Farm Property & Buildings",
+    title: "Dairy Property & Buildings",
     short: "Barns, milking parlors, silos & feed storage",
     description:
       "All-risk coverage for the dairy complex — freestall barns, milking parlors and holding areas, commodity sheds, commodity and bunker silos, feed storage, and the contents and inventory inside them. Built for livestock and manure exposures.",
@@ -90,7 +90,7 @@ export const SERVICES = [
     title: "Dairy Product Liability",
     short: "For milk and dairy products you ship",
     description:
-      "Coverage for bodily injury or property damage arising from contaminated, mislabeled, or defective milk and dairy products after they leave your farm or creamery — including recall costs and defense when a foodborne-illness or adulteration claim is made.",
+      "Coverage for bodily injury or property damage arising from contaminated, mislabeled, or defective milk and dairy products after they leave your dairy or creamery — including recall costs and defense when a foodborne-illness or adulteration claim is made.",
     icon: "FlaskConical",
     keywords: ["dairy product liability insurance", "milk contamination insurance", "dairy recall coverage", "food liability dairy farm"],
   },
@@ -99,7 +99,7 @@ export const SERVICES = [
     title: "General Liability Insurance",
     short: "Premises, agri-tourism & daily operations",
     description:
-      "Third-party bodily injury and property damage protection for farm visitors, farm tours and agri-tourism, deliveries, custom heifer raising, and the day-to-day operations of running a working dairy.",
+      "Third-party bodily injury and property damage protection for visitors to the dairy, herd tours and agri-tourism, deliveries, custom heifer raising, and the day-to-day operations of running a milking herd.",
     icon: "ShieldCheck",
     keywords: ["dairy farm general liability", "agritourism insurance", "farm premises liability", "dairy GL insurance"],
   },
@@ -115,7 +115,7 @@ export const SERVICES = [
   {
     slug: "commercial-auto",
     title: "Commercial Auto & Trucking",
-    short: "Milk tankers, feed trucks & farm vehicles",
+    short: "Milk tankers, feed trucks & dairy vehicles",
     description:
       "Coverage for the milk tankers, feed and commodity trucks, pickup trucks, tractors, and equipment you run on public roads — including hired and non-owned auto when employees use their own vehicles on dairy business.",
     icon: "Truck",
@@ -136,7 +136,7 @@ export const LOCATIONS = [
   { slug: "wisconsin", name: "Wisconsin", region: "America's Dairyland", blurb: "The heart of U.S. dairy. We insure Wisconsin operations from rotational-grazing herds in the Driftless Region to large modern freestall and parlor dairies — with class codes and markets built for Wisconsin dairy labor and manure regulations." },
   { slug: "california", name: "California", region: "Central Valley · North Coast", blurb: "The largest dairy state by production. Coverage built for California's big-herd Central Valley dairies — water-quality and air-emissions exposure, large parlor equipment values, and the state's strict nutrient-management rules." },
   { slug: "pacific-northwest", name: "Pacific Northwest", region: "Oregon · Washington · Idaho", blurb: "Pasture-based and confinement dairies across the PNW. Programs sized for organic and grass-fed herds, large feed inventories, and the wet-climate manure and runoff exposures of coastal and inland operations." },
-  { slug: "northeast", name: "Northeast & Mid-Atlantic", region: "NY · PA · VT · New England", blurb: "From New York and Pennsylvania to Vermont's organic creameries. Coverage for the region's smaller-herd, higher-value registered stock, bottling and on-farm processing, and seasonal pasture operations." },
+  { slug: "northeast", name: "Northeast & Mid-Atlantic", region: "NY · PA · VT · New England", blurb: "From New York and Pennsylvania to Vermont's organic creameries. Coverage for the region's smaller-herd, higher-value registered stock, bottling and on-site processing, and seasonal pasture operations." },
   { slug: "upper-midwest", name: "Upper Midwest", region: "Minnesota · Michigan · Iowa", blurb: "Heritage dairy country across the Upper Midwest. Programs for Minnesota, Michigan, and Iowa dairies — from family tie-stall barns to expanding parlor operations, with feed and forage coverage sized for cold-climate storage." },
   { slug: "southwest", name: "Texas & the Southwest", region: "TX · NM · AZ", blurb: "Fast-growing Southwest dairy regions in the Texas Panhandle and New Mexico. Coverage for large-herd desert dairies — high water-use exposure, large lagoon systems, and feed and commodity operations under arid-climate conditions." },
   { slug: "southeast", name: "U.S. Southeast", region: "Florida · Georgia · the Carolinas", blurb: "Southeast dairies facing heat-stress, hurricane, and high-rainfall manure exposures. Programs built for Florida, Georgia, and Carolina operations — including storm and flood-surge considerations for coastal and central dairies." },
@@ -154,7 +154,7 @@ export const CREDENTIALS = [
 
 export const STATS = [
   { value: 240, suffix: "+", label: "Dairy operations insured nationwide", prefix: "" },
-  { value: 20, suffix: "+", label: "Years insuring farm operations", prefix: "" },
+  { value: 20, suffix: "+", label: "Years insuring dairy and livestock operations", prefix: "" },
   { value: 15, suffix: " min", label: "Average quote turnaround", prefix: "" },
   { value: 50, suffix: "", label: "States licensed & writing", prefix: "" },
 ] as const;
