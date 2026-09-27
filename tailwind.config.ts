@@ -36,18 +36,19 @@ const config: Config = {
           800: "#173820",
           900: "#0F2615",
         },
+        // accent - terracotta since 2026-09-27 (was sky blue; Josh HARD NO on blue gradients). Key name kept for existing usages.
         sage: {
-          DEFAULT: "#2E7BB5",
-          dark: "#1F5E8C",
-          light: "#5DA0CC",
-          50: "#ECF4FA",
-          100: "#D2E6F3",
-          200: "#A6CEE4",
-          300: "#5DA0CC",
-          400: "#3E8DC0",
-          500: "#2E7BB5",
-          600: "#1F5E8C",
-          700: "#174866",
+          DEFAULT: "#A94A26",
+          dark: "#843A1D",
+          light: "#CF7647",
+          50: "#FBF1EA",
+          100: "#F6DFD0",
+          200: "#EDC0A3",
+          300: "#CF7647",
+          400: "#BD5F33",
+          500: "#A94A26",
+          600: "#843A1D",
+          700: "#6B2F13",
         },
         gold: {
           DEFAULT: "#E0A82E",
@@ -81,9 +82,9 @@ const config: Config = {
         "sunrise-bands":
           "linear-gradient(180deg, #FBF9F4 0%, #F1F5EC 40%, #EEF7EE 70%, #FBF9F4 100%)",
         "warm-radial":
-          "radial-gradient(circle at 30% 20%, rgba(74,139,88,0.12) 0%, transparent 50%), radial-gradient(circle at 80% 70%, rgba(46,123,181,0.08) 0%, transparent 55%)",
+          "radial-gradient(circle at 30% 20%, rgba(74,139,88,0.12) 0%, transparent 50%), radial-gradient(circle at 80% 70%, rgba(169,74,38,0.08) 0%, transparent 55%)",
         "clay-gradient": "linear-gradient(135deg, #2F6B3E 0%, #4A8B58 100%)",
-        "sage-gradient": "linear-gradient(135deg, #2E7BB5 0%, #5DA0CC 100%)",
+        "sage-gradient": "linear-gradient(135deg, #A94A26 0%, #CF7647 100%)",
         "gold-gradient": "linear-gradient(135deg, #E0A82E 0%, #F0C868 100%)",
       },
       boxShadow: {
